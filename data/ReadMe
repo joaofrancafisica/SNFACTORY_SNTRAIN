@@ -1,0 +1,115 @@
+J/ApJ/869/167       Improved empirical models for Type Ia SNe  (Saunders+, 2018)
+================================================================================
+SNEMO: Improved empirical models for Type Ia supernovae.
+    Saunders C., Aldering G., Antilogus P., Bailey S., Baltay C., Barbary K.,
+    Baugh D., Boone K., Bongard S., Buton C., Chen J., Chotard N., Copin Y.,
+    Dixon S., Fagrelius P., Fakhouri H.K., Feindt U., Fouchez D., Gangler E.,
+    Hayden B., Hillebrandt W., Kim A.G., Kowalski M., Kusters D., Leget P.-F.,
+    Lombardo S., Nordin J., Pain R., Pecontal E., Pereira R., Perlmutter S.,
+    Rabinowitz D., Rigault M., Rubin D., Runge K., Smadja G., Sofiatti C.,
+    Suzuki N., Tao C., Taubenberger S., Thomas R.C., Vincenzi M.,
+    (the Nearby Supernova Factory)
+   <Astrophys. J., 869, 167-167 (2018)>
+   =2018ApJ...869..167S    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Models ; Supernovae ; Spectroscopy
+Keywords: cosmology: observations - supernovae: general
+
+Abstract:
+    SN Ia cosmology depends on the ability to fit and standardize
+    observations of supernova magnitudes with an empirical model. We
+    present here a series of new models of SN Ia spectral time series that
+    capture a greater amount of supernova diversity than is possible with
+    the models that are currently customary. These are entitled SuperNova
+    Empirical MOdels (SNEMO; https://snfactory.lbl.gov/snemo). The models
+    are constructed using spectrophotometric time series from 172
+    individual supernovae from the Nearby Supernova Factory, comprising
+    more than 2000 spectra. Using the available observations, Gaussian
+    processes are used to predict a full spectral time series for each
+    supernova. A matrix is constructed from the spectral time series of
+    all the supernovae, and Expectation Maximization Factor Analysis is
+    used to calculate the principal components of the data. K-fold
+    cross-validation then determines the selection of model parameters and
+    accounts for color variation in the data. Based on this process, the
+    final models are trained on supernovae that have been dereddened using
+    the Fitzpatrick and Massa extinction relation. Three final models are
+    presented here: SNEMO2, a two-component model for comparison with
+    current Type Ia models; SNEMO7, a seven-component model chosen for
+    standardizing supernova magnitudes, which results in a total
+    dispersion of 0.100mag for a validation set of supernovae, of which
+    0.087mag is unexplained (a total dispersion of 0.113mag with an
+    unexplained dispersion of 0.097mag is found for the total set of
+    training and validation supernovae); and SNEMO15, a comprehensive
+    15-component model that maximizes the amount of spectral time-series
+    behavior captured.
+
+Description:
+    Model spectra.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table3.dat       671     8352   Training and Validation Set Model Parameters
+list.dat          39     2474  *List of spectra
+sp/*               .     2474   Individual spectra
+--------------------------------------------------------------------------------
+Note on list.dat: Telescope UH88, Redshift=0.0.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label       Explanations
+--------------------------------------------------------------------------------
+   1- 25 E25.18 d       Phase       [-10/46] SN phase
+  27- 50 E24.18 0.1nm   lambda      Wavelength (Angstroems)
+  52- 75 E24.18 ---     SNEMO2c0    The SNEMO2c0 parameter
+  77-101 E25.18 ---     SNEMO2c1    The SNEMO2c1 parameter
+ 103-126 E24.18 ---     SNEMO7c0    The SNEMO7c0 parameter
+ 128-152 E25.18 ---     SNEMO7c1    The SNEMO7c1 parameter
+ 154-178 E25.18 ---     SNEMO7c2    The SNEMO7c2 parameter
+ 180-204 E25.18 ---     SNEMO7c3    The SNEMO7c3 parameter
+ 206-230 E25.18 ---     SNEMO7c4    The SNEMO7c4 parameter
+ 232-256 E25.18 ---     SNEMO7c5    The SNEMO7c5 parameter
+ 258-282 E25.18 ---     SNEMO7c6    The SNEMO7c6 parameter
+ 284-307 E24.18 ---     SNEMO15c0   The SNEMO15c0 parameter
+ 309-333 E25.18 ---     SNEMO15c1   The SNEMO15c1 parameter
+ 335-359 E25.18 ---     SNEMO15c2   The SNEMO15c2 parameter
+ 361-385 E25.18 ---     SNEMO15c3   The SNEMO15c3 parameter
+ 387-411 E25.18 ---     SNEMO15c4   The SNEMO15c4 parameter
+ 413-437 E25.18 ---     SNEMO15c5   The SNEMO15c5 parameter
+ 439-463 E25.18 ---     SNEMO15c6   The SNEMO15c6 parameter
+ 465-489 E25.18 ---     SNEMO15c7   The SNEMO15c7 parameter
+ 491-515 E25.18 ---     SNEMO15c8   The SNEMO15c8 parameter
+ 517-541 E25.18 ---     SNEMO15c9   The SNEMO15c9 parameter
+ 543-567 E25.18 ---     SNEMO15c10  The SNEMO15c10 parameter
+ 569-593 E25.18 ---     SNEMO15c11  The SNEMO15c11 parameter
+ 595-619 E25.18 ---     SNEMO15c12  The SNEMO15c12 parameter
+ 621-645 E25.18 ---     SNEMO15c13  The SNEMO15c13 parameter
+ 647-671 E25.18 ---     SNEMO15c14  The SNEMO15c14 parameter
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: list.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 12  A12   ---     Name      Model name
+  13- 19  F7.3  ---     Phase     Phase
+  22- 39  A18   ---     FileName  Name of the spectrum file in subdirectory sp
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file (#): sp/*
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  F6.1  0.1nm     lambda    Wavelength (Angstroems)
+   8- 30 E23.18 W/m2/nm   Flux      Flux (erg/s/cm^2^/{AA} * random offset)
+  32- 54 E23.19 W/m2/nm e_Flux      rms uncertainty of Flux
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Clare Saunders, cmsaunders(at)berkeley.edu
+
+================================================================================
+(End)                                      Patricia Vannier [CDS]    03-Apr-2020
