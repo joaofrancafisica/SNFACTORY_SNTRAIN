@@ -268,7 +268,6 @@ Test_SN26    -0.571  Test_SN26_3.dat
 Test_SN26     6.247  Test_SN26_4.dat
 Test_SN26     6.262  Test_SN26_5.dat
 Test_SN26    11.148  Test_SN26_7.dat
-Test_SN26    20.903  Test_SN26_8.dat
 Test_SN27    -9.752  Test_SN27_0.dat
 Test_SN27    -6.810  Test_SN27_1.dat
 Test_SN27    14.219  Test_SN27_10.dat
@@ -593,7 +592,6 @@ Test_SN47    14.695  Test_SN47_10.dat
 Test_SN47    17.539  Test_SN47_11.dat
 Test_SN47    22.248  Test_SN47_12.dat
 Test_SN47    27.011  Test_SN47_13.dat
-Test_SN47    41.228  Test_SN47_15.dat
 Test_SN47    -1.471  Test_SN47_2.dat
 Test_SN47     0.416  Test_SN47_3.dat
 Test_SN47     3.350  Test_SN47_4.dat
@@ -1097,7 +1095,6 @@ Train_SN13   23.921  Train_SN13_12.dat
 Train_SN13   23.942  Train_SN13_13.dat
 Train_SN13   29.506  Train_SN13_14.dat
 Train_SN13   29.528  Train_SN13_15.dat
-Train_SN13   33.219  Train_SN13_17.dat
 Train_SN13    0.714  Train_SN13_2.dat
 Train_SN13    2.532  Train_SN13_3.dat
 Train_SN13    5.317  Train_SN13_4.dat
@@ -1236,7 +1233,6 @@ Train_SN20   36.100  Train_SN20_12.dat
 Train_SN20   41.667  Train_SN20_14.dat
 Train_SN20   41.689  Train_SN20_15.dat
 Train_SN20   48.169  Train_SN20_16.dat
-Train_SN20   48.190  Train_SN20_17.dat
 Train_SN20   -0.108  Train_SN20_2.dat
 Train_SN20    1.754  Train_SN20_3.dat
 Train_SN20    4.587  Train_SN20_4.dat
@@ -1660,8 +1656,6 @@ Train_SN49   19.943  Train_SN49_9.dat
 Train_SN4    -3.430  Train_SN4_0.dat
 Train_SN4     2.208  Train_SN4_1.dat
 Train_SN4    27.341  Train_SN4_12.dat
-Train_SN4    44.005  Train_SN4_13.dat
-Train_SN4    44.027  Train_SN4_14.dat
 Train_SN4     4.029  Train_SN4_2.dat
 Train_SN4     6.826  Train_SN4_3.dat
 Train_SN4     8.690  Train_SN4_4.dat
@@ -2066,7 +2060,6 @@ Train_SN74   26.508  Train_SN74_12.dat
 Train_SN74   29.325  Train_SN74_13.dat
 Train_SN74   31.231  Train_SN74_14.dat
 Train_SN74   34.098  Train_SN74_15.dat
-Train_SN74   38.862  Train_SN74_16.dat
 Train_SN74    0.893  Train_SN74_2.dat
 Train_SN74    2.722  Train_SN74_3.dat
 Train_SN74    7.454  Train_SN74_5.dat
@@ -2183,7 +2176,6 @@ Train_SN81   28.585  Train_SN81_12.dat
 Train_SN81   28.607  Train_SN81_13.dat
 Train_SN81   37.919  Train_SN81_15.dat
 Train_SN81   39.761  Train_SN81_16.dat
-Train_SN81   42.564  Train_SN81_17.dat
 Train_SN81   -2.176  Train_SN81_2.dat
 Train_SN81    5.258  Train_SN81_3.dat
 Train_SN81    7.128  Train_SN81_4.dat
