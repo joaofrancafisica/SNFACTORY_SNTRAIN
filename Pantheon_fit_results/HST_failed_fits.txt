@@ -1,0 +1,11 @@
+Unsuccessful fit of SNvespesian(EXP_ATUAL)
+Failed to fit SN Aphrodite
+Failed to fit SN Borg
+Failed to fit SN Koekemoer
+Failed to fit SN Lancaster
+Failed to fit SN Mcguire
+Failed to fit SN Sasquatch
+Failed to fit SN Thoth
+Failed to fit SN Vilas
+Failed to fit SN SCP05D6
+Unsuccessful fit of SNSCP06C0(SALT2_CORTADO)

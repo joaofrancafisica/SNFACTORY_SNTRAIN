@@ -1,0 +1,7 @@
+Unsuccessful fit of SN360156(SALT2_CORTADO)
+Unsuccessful fit of SN370356(SALT2_CORTADO)
+Unsuccessful fit of SN520019(EXP_ATUAL)
+Unsuccessful fit of SN000137(EXP_ATUAL)
+Unsuccessful fit of SN370566(EXP_ATUAL)
+Failed to fit SN 370595
+Unsuccessful fit of SN580104(EXP_ANTERIOR)
